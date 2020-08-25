@@ -1,0 +1,11 @@
+﻿@namespace BlazorTypeBug.ConflictingName.Components
+@using global::ConflictingName
+
+<h1>@Data.Message</h1>
+
+@code {
+    [Parameter]
+    public Model Data { get; set; }
+    
+    
+}
